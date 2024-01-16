@@ -33,10 +33,18 @@
   margin: 0;
   padding: 0;
 }
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
 
 header {
   max-width: 1440px;
-  width: 90%;
+  width: 80%;
   margin: 30px auto;
 }
 nav {
@@ -110,8 +118,9 @@ nav #icon i {
   display: flex;
   flex-direction: column;
   max-width: 1170px;
+  width: 80%;
   height: 500px;
-  margin: 3rem auto;
+  margin: 0 auto;
   border-radius: 15px;
   background: linear-gradient(
       180deg,
@@ -178,8 +187,8 @@ select {
   width: 174px;
   height: 52px;
   border: none;
-  font-weight: var(--bold-font);
-  font-size: var(--light-font);
+  font-weight: var(--light-font);
+  font-size: var(--paragraph-font-size);
   border-radius: 1rem;
   padding: 1rem;
   background-color: var(--btn-color);
@@ -188,4 +197,309 @@ select {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+}
+
+/* tours section starts  */
+
+.tours {
+  width: 1170px;
+  width: 80%;
+  margin: 50px auto;
+}
+.tour {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.tours-content {
+  /* width: 540px; */
+  width: 50%;
+  height: 550px;
+}
+.tours-images {
+  /* width: 540px; */
+  width: 50%;
+  height: 550px;
+  object-fit: cover;
+  background-image: url(../Images/Rectangle\ 4.png);
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.tours-content h2 {
+  color: var(--prymary-color);
+  font-size: var(--logo-font-size);
+  font-family: var(--prymary-font-family);
+  font-weight: var(--extra-bold-fonr);
+  margin-bottom: 1rem;
+}
+.tours-content p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.tours-content .tours-content-list {
+  margin: 1rem 2rem;
+}
+
+.tours-content .tours-content-list li {
+  margin-top: 1rem;
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+.tours-content .btn-tours {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+/* destination section starts  */
+
+.destination {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.destination h2 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.destination p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1.5rem 9rem;
+}
+
+.destination-images-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.images-gallery-1 {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.3rem;
+  width: 100%;
+}
+
+.images-gallery-a {
+  width: 50%;
+}
+
+.images-gallery-b {
+  width: 50%;
+}
+
+.destination-images-gallery .images-gallery-a {
+  position: relative;
+}
+
+.destination-images-gallery .images-gallery-a p {
+  position: absolute;
+  top: 32%;
+  left: 15%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.destination-images-gallery .images-gallery-b {
+  position: relative;
+}
+
+.destination-images-gallery .images-gallery-b p {
+  position: absolute;
+  top: 32%;
+  left: 18%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.images-gallery-2 {
+  display: flex;
+  gap: 1.3rem;
+  width: 100%;
+}
+
+.images-gallery-c {
+  width: 32%;
+}
+
+.images-gallery-d {
+  width: 44%;
+}
+
+.images-gallery-e {
+  width: 24%;
+}
+
+.destination-images-gallery .images-gallery-c {
+  position: relative;
+}
+
+.destination-images-gallery .images-gallery-c p {
+  position: absolute;
+  top: 35%;
+  left: -5%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.destination-images-gallery .images-gallery-d {
+  position: relative;
+}
+
+.destination-images-gallery .images-gallery-d p {
+  position: absolute;
+  top: 34%;
+  left: -5%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.destination-images-gallery .images-gallery-e {
+  position: relative;
+}
+
+.destination-images-gallery .images-gallery-e p {
+  position: absolute;
+  top: 42%;
+  right: -25%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.images-gallery-3 {
+  display: flex;
+  gap: 1.3rem;
+  width: 100%;
+}
+.images-gallery-f {
+  width: 40%;
+}
+
+.images-gallery-g {
+  width: 60%;
+}
+.destination-images-gallery .images-gallery-f {
+  position: relative;
+}
+
+.destination-images-gallery .images-gallery-f p {
+  position: absolute;
+  top: 42%;
+  left: 0%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+.destination-images-gallery .images-gallery-g {
+  position: relative;
+}
+
+.destination-images-gallery .images-gallery-g p {
+  position: absolute;
+  top: 42%;
+  left: 14%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* Choose us section  */
+.Choose {
+  width: 80%;
+  margin: 100px auto;
+}
+.Choose .choose-title {
+  text-align: center;
+}
+.Choose .choose-title h4 {
+  color: #131318;
+  align-items: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.Choose .choose-title P {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 1.3rem;
+}
+.Choose .card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+.Choose .card h4 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.Choose .card p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.Choose .card {
+  width: 45%;
+  padding: 1.5rem 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.Choose .card-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.Choose-us {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  align-content: center;
 }
