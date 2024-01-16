@@ -1,0 +1,29 @@
+:root {
+  /* font color  */
+  --prymary-color: #131318;
+  --secondary-color: #fff;
+  --paragraph-prymary-color: rgba(19, 19, 24, 0.7);
+  --paragraph-secondary-color: #5a5a5d;
+  --paragraph-third-color: rgba(19, 19, 24, 0.3);
+  --btn-color: #ff5400;
+  --atag-color: #424247;
+  /* font size  */
+  --banner-font-size: 4rem;
+  --content-heading-font-size: 2.5rem;
+  --logo-font-size: 2.25rem;
+  --images-font-size: 1.75rem;
+  --content-heading-size: 1.5rem;
+  --atag-font-size: 1.125rem;
+  --paragraph-font-size: 1rem;
+  --btn-font-size: 1.25rem;
+  /* font family  */
+  --prymary-font-family: "Mulish", sans-serif;
+  --secondary-font-family: "Inter", sans-serif;
+  /* font wigth  */
+  --light-font: 300;
+  --regular-font: 400;
+  --bold-font: 700;
+  --extra-bold-fonr: 800;
+}
+
+border-radius: 8px;

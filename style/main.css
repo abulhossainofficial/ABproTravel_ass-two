@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap");
+
+:root {
+  /* font color  */
+  --prymary-color: #131318;
+  --secondary-color: #fff;
+  --paragraph-prymary-color: rgba(19, 19, 24, 0.7);
+  --paragraph-secondary-color: #5a5a5d;
+  --paragraph-third-color: rgba(19, 19, 24, 0.3);
+  --btn-color: #ff5400;
+  --atag-color: #424247;
+  /* font size  */
+  --banner-font-size: 4rem;
+  --content-heading-font-size: 2.5rem;
+  --logo-font-size: 2.25rem;
+  --images-font-size: 1.75rem;
+  --content-heading-size: 1.5rem;
+  --atag-font-size: 1.125rem;
+  --paragraph-font-size: 1rem;
+  --btn-font-size: 1.25rem;
+  /* font family  */
+  --prymary-font-family: "Mulish", sans-serif;
+  --secondary-font-family: "Inter", sans-serif;
+  /* font wigth  */
+  --light-font: 300;
+  --regular-font: 400;
+  --bold-font: 700;
+  --extra-bold-fonr: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  max-width: 1440px;
+  width: 90%;
+  margin: 30px auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-log {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+.img img {
+  width: 60px;
+}
+
+.nav-log .content {
+  font-size: var(--logo-font-size);
+  font-family: var(--prymary-font-family);
+  color: var(--prymary-color);
+  font-weight: var(--extra-bold-fonr);
+}
+.content span {
+  color: var(--btn-color);
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-item ul a {
+  text-decoration: none;
+  margin-right: 2.5rem;
+  font-family: var(--prymary-font-family);
+  font-size: var(--atag-font-size);
+  color: var(--atag-color);
+  font-weight: var(--regular-font);
+}
+
+.nav-item ul a span {
+  color: var(--btn-color);
+}
+
+a:hover {
+  background-color: rgb(199, 196, 16);
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px 15px;
+}
+
+nav #icon i {
+  color: #130404;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+#click {
+  display: none;
+}
+
+/* hero section starts  */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  height: 500px;
+  margin: 3rem auto;
+  border-radius: 15px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png") center/cover;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.hero-content h2 {
+  color: var(--secondary-color);
+  font-size: var(--banner-font-size);
+  font-weight: var(--extra-bold-fonr);
+  font-family: var(--prymary-font-family);
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  margin-top: 1.4rem;
+  color: var(--secondary-color);
+  font-family: var(--prymary-font-family);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--light-font);
+  margin: 0 14rem;
+}
+
+/* .hero-form .form {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+} */
+
+.hero-form {
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.hero-form .form input,
+select {
+  border: none;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: var(--paragraph-font-size);
+  text-align: center;
+}
+
+.hero-form .form .btn-prymary {
+  width: 174px;
+  height: 52px;
+  border: none;
+  font-weight: var(--bold-font);
+  font-size: var(--light-font);
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: var(--btn-color);
+  color: var(--secondary-color);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}

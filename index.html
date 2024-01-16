@@ -11,13 +11,70 @@
     />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/2ba20532fb.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
       <!-- Header Section starts  -->
+      <nav>
+        <div class="nav-log">
+          <div class="img">
+            <img src="./Images/AB proTravel.png" alt="" />
+          </div>
+          <div class="content">AB <span>proTravel</span></div>
+        </div>
+        <div class="nav-item">
+          <input type="checkbox" id="click" />
+          <label for="click" id="icon"> <i class="fas fa-bars"></i></label>
+          <ul>
+            <a class="active" href="#"><span>Home</span></a
+            ><a href="#">Packages</a
+            ><a href="#">Testimonial</a
+            ><a href="#">Blog</a
+            ><a href="$">Contact</a>
+          </ul>
+        </div>
+      </nav>
       <!-- Header Section starts  -->
     </header>
-    <main></main>
+    <main>
+      <!-- banner section starts  -->
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Explore Your Travel</h2>
+          <p>
+            "AB proTravel" is a Online Travel Agency located at Barishal. We
+            provide air tickets , hotels, tour packages, travel planning related
+            services.
+          </p>
+        </div>
+        <div class="hero-form">
+          <form class="form">
+            <input type="text" id="" name="" placeholder="Where go" />
+            <select name="" id="when">
+              <option value="when">When</option>
+              <option value="morning">Morning</option>
+              <option value="evening">Evening</option>
+              <option value="night">Night</option>
+            </select>
+            <select name="" id="Select Type">
+              <option value="selectType">Select Type</option>
+              <option value="airplane">Airplane</option>
+              <option value="train">Train</option>
+              <option value="bus / car">Bus / Car</option>
+              <option value="shipe">Shipe</option>
+            </select>
+            <button class="btn-prymary">
+              <i class="fa-solid fa-magnifying-glass"></i> Find Now
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- banner section end  -->
+    </main>
     <footer></footer>
   </body>
 </html>
