@@ -99,14 +99,12 @@
     flex-direction: column;
   }
   .tours-content {
-    width: 80%;
+    width: 70%;
+    margin: 0 auto;
   }
   .tours-images {
-    width: 80%;
-    margin-top: 50px;
-  }
-  .tours-content .tours-content-list {
-    margin: 0;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .destination {
@@ -346,6 +344,52 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+  }
+
+  .newsletter-content-img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    gap: 1rem;
+  }
+  .newsletter {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 1rem;
+  }
+  .newsletter-content-img {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1rem;
+  }
+  .newsletter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 1rem;
+  }
+
+  .newsletter-img {
+    position: relative;
+  }
+
+  .newsletter-img .save {
+    position: absolute;
+    background-color: #ff5400;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    bottom: 20%;
+    right: 1%;
+  }
+  .fotter-style .footer-top {
+    margin-left: 12%;
   }
 }
 
@@ -679,5 +723,45 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+  }
+
+  .newsletter {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 1rem;
+  }
+  .newsletter-content-img {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1rem;
+  }
+  .newsletter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 1rem;
+  }
+
+  .newsletter-img {
+    position: relative;
+  }
+
+  .newsletter-img .save {
+    position: absolute;
+    background-color: #ff5400;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    bottom: 15%;
+    right: 1%;
+  }
+  .fotter-style .footer-top {
+    margin-left: 15%;
   }
 }
